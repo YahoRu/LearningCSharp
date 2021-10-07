@@ -7,12 +7,13 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Random rnd = new Random();
-            int nails = rnd.Next(1, 10);
+            int nails = rnd.Next(1, 11);
+            Console.WriteLine(nails);
 
             static void hummerANail()
             {
                 Random rnd = new Random();
-                int hitsToNailDone = rnd.Next(1, 5);
+                int hitsToNailDone = rnd.Next(1, 6);
                 for (int i = 1; i <= hitsToNailDone; i++)
                 {
                     Console.WriteLine("Удар по гвоздю!!");
