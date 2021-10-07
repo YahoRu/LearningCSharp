@@ -8,22 +8,22 @@ namespace ConsoleApp1
         {
             Random rnd = new Random();
             int nails = rnd.Next(1, 11);
-            Console.WriteLine(nails);
 
             static void hummerANail()
             {
                 Random rnd = new Random();
                 int hitsToNailDone = rnd.Next(1, 6);
+                Console.WriteLine("Взяли новый гвоздь ");
                 for (int i = 1; i <= hitsToNailDone; i++)
                 {
-                    Console.WriteLine("Удар по гвоздю!!");
+                    Console.WriteLine("Удар по гвоздю ");
                 }
             }
 
             for (int i = 1; i <= nails; i++)
             {
                 hummerANail();
-                Console.WriteLine("Забили" + i + " гвоздь");
+                Console.WriteLine("Забили " + i + " гвоздь");
             }
 
             Console.WriteLine("Все гвозди (" + nails + " шт) " + " забиты");
