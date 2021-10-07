@@ -27,7 +27,9 @@ namespace ConsoleApp1
             }
 
             Console.WriteLine("Все гвозди (" + nails + " шт) " + " забиты");
+            Console.WriteLine("Нажмите клавишу для выхода");
             Console.ReadKey();
+            
         }
     }
 }
