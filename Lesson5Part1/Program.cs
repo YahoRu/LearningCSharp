@@ -7,6 +7,7 @@ namespace Lesson5Part1
         static void Main(string[] args)
         {
             int sumEven = 0;
+
             Random rnd = new Random();
 
             int[] array = new int[rnd.Next(1, 101)];
